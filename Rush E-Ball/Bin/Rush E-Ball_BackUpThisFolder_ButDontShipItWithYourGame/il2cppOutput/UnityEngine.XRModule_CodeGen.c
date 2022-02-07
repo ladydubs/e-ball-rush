@@ -163,65 +163,77 @@ extern void InputDevices_TryGetFeatureValue_Quaternionf_m311EFFC92912AC9979DAAC3
 extern void InputDevices_IsDeviceValid_m1752F226E5552BE398A8EAD41A131E8A5D6F9E47 (void);
 // 0x0000004F System.Void UnityEngine.XR.XRDisplaySubsystem::InvokeDisplayFocusChanged(System.Boolean)
 extern void XRDisplaySubsystem_InvokeDisplayFocusChanged_mF8F7E4D08B964907140FD3F8841F130159C7DBA7 (void);
-// 0x00000050 System.Void UnityEngine.XR.XRDisplaySubsystem::.ctor()
+// 0x00000050 System.Boolean UnityEngine.XR.XRDisplaySubsystem::TryGetAppGPUTimeLastFrame(System.Single&)
+extern void XRDisplaySubsystem_TryGetAppGPUTimeLastFrame_m6101C924131D97949D0BB807F0075C28464B6451 (void);
+// 0x00000051 System.Boolean UnityEngine.XR.XRDisplaySubsystem::TryGetCompositorGPUTimeLastFrame(System.Single&)
+extern void XRDisplaySubsystem_TryGetCompositorGPUTimeLastFrame_m168019E7D1D33CFA7218F9BC79E3C5E1640CC41B (void);
+// 0x00000052 System.Boolean UnityEngine.XR.XRDisplaySubsystem::TryGetDisplayRefreshRate(System.Single&)
+extern void XRDisplaySubsystem_TryGetDisplayRefreshRate_m83B7B48711B68E8D05F3B5D2F1EDE61154EAC7A3 (void);
+// 0x00000053 System.Boolean UnityEngine.XR.XRDisplaySubsystem::TryGetMotionToPhoton(System.Single&)
+extern void XRDisplaySubsystem_TryGetMotionToPhoton_m10E75B632588DB76D4C88E022CC2B5D678E1C9F5 (void);
+// 0x00000054 System.Void UnityEngine.XR.XRDisplaySubsystem::.ctor()
 extern void XRDisplaySubsystem__ctor_mCC516BAAAC7175CC9CEECA04E488F5D9BF0FB774 (void);
-// 0x00000051 System.Void UnityEngine.XR.XRDisplaySubsystemDescriptor::.ctor()
+// 0x00000055 System.Void UnityEngine.XR.XRDisplaySubsystemDescriptor::.ctor()
 extern void XRDisplaySubsystemDescriptor__ctor_mB045E1EBFB4D2B7CBE05D85D5AC622F7A971E056 (void);
-// 0x00000052 System.Boolean UnityEngine.XR.XRInputSubsystem::TryRecenter()
+// 0x00000056 System.Boolean UnityEngine.XR.XRInputSubsystem::TryRecenter()
 extern void XRInputSubsystem_TryRecenter_m40231564A0E1FB14CAC17F7A88B206FA2121EF5C (void);
-// 0x00000053 System.Boolean UnityEngine.XR.XRInputSubsystem::TrySetTrackingOriginMode(UnityEngine.XR.TrackingOriginModeFlags)
+// 0x00000057 System.Boolean UnityEngine.XR.XRInputSubsystem::TrySetTrackingOriginMode(UnityEngine.XR.TrackingOriginModeFlags)
 extern void XRInputSubsystem_TrySetTrackingOriginMode_m43E5453F805376A64B8337E71AED773D41C9006D (void);
-// 0x00000054 UnityEngine.XR.TrackingOriginModeFlags UnityEngine.XR.XRInputSubsystem::GetTrackingOriginMode()
+// 0x00000058 UnityEngine.XR.TrackingOriginModeFlags UnityEngine.XR.XRInputSubsystem::GetTrackingOriginMode()
 extern void XRInputSubsystem_GetTrackingOriginMode_mF204EDA603CE5410246C5F7C7125D95406A2FA04 (void);
-// 0x00000055 UnityEngine.XR.TrackingOriginModeFlags UnityEngine.XR.XRInputSubsystem::GetSupportedTrackingOriginModes()
+// 0x00000059 UnityEngine.XR.TrackingOriginModeFlags UnityEngine.XR.XRInputSubsystem::GetSupportedTrackingOriginModes()
 extern void XRInputSubsystem_GetSupportedTrackingOriginModes_m12EEA2E804FF03D9B82BCB2E64EA520AF0C03B36 (void);
-// 0x00000056 System.Void UnityEngine.XR.XRInputSubsystem::add_trackingOriginUpdated(System.Action`1<UnityEngine.XR.XRInputSubsystem>)
+// 0x0000005A System.Void UnityEngine.XR.XRInputSubsystem::add_trackingOriginUpdated(System.Action`1<UnityEngine.XR.XRInputSubsystem>)
 extern void XRInputSubsystem_add_trackingOriginUpdated_m8CD3F07F66759D7752621C40ED304E6782482392 (void);
-// 0x00000057 System.Void UnityEngine.XR.XRInputSubsystem::remove_trackingOriginUpdated(System.Action`1<UnityEngine.XR.XRInputSubsystem>)
+// 0x0000005B System.Void UnityEngine.XR.XRInputSubsystem::remove_trackingOriginUpdated(System.Action`1<UnityEngine.XR.XRInputSubsystem>)
 extern void XRInputSubsystem_remove_trackingOriginUpdated_m330F23CA8B04C50C56B120AF7387A2EA6B00E641 (void);
-// 0x00000058 System.Void UnityEngine.XR.XRInputSubsystem::InvokeTrackingOriginUpdatedEvent(System.IntPtr)
+// 0x0000005C System.Void UnityEngine.XR.XRInputSubsystem::InvokeTrackingOriginUpdatedEvent(System.IntPtr)
 extern void XRInputSubsystem_InvokeTrackingOriginUpdatedEvent_m8A70C0391D141C9189155AAAD3D16493243A23D5 (void);
-// 0x00000059 System.Void UnityEngine.XR.XRInputSubsystem::InvokeBoundaryChangedEvent(System.IntPtr)
+// 0x0000005D System.Void UnityEngine.XR.XRInputSubsystem::InvokeBoundaryChangedEvent(System.IntPtr)
 extern void XRInputSubsystem_InvokeBoundaryChangedEvent_m795C2897F3A0047BBA6834D3F97B5DAFDEC4AE7A (void);
-// 0x0000005A System.Void UnityEngine.XR.XRInputSubsystem::.ctor()
+// 0x0000005E System.Void UnityEngine.XR.XRInputSubsystem::.ctor()
 extern void XRInputSubsystem__ctor_m80AE13105C9C373B38E4814244886DCB7AA3E7E8 (void);
-// 0x0000005B System.Void UnityEngine.XR.XRInputSubsystemDescriptor::.ctor()
+// 0x0000005F System.Void UnityEngine.XR.XRInputSubsystemDescriptor::.ctor()
 extern void XRInputSubsystemDescriptor__ctor_m1620DD409E907F5AAA03D3DE504AC48D9D3E9576 (void);
-// 0x0000005C System.String UnityEngine.XR.MeshId::ToString()
+// 0x00000060 System.String UnityEngine.XR.MeshId::ToString()
 extern void MeshId_ToString_mA9CDBA01DD0C110252F6C4AA7437C507B2025705 (void);
-// 0x0000005D System.Int32 UnityEngine.XR.MeshId::GetHashCode()
+// 0x00000061 System.Int32 UnityEngine.XR.MeshId::GetHashCode()
 extern void MeshId_GetHashCode_mCD3E4355DB5EE90C389CE1D742E4CCA6471E2AA6 (void);
-// 0x0000005E System.Boolean UnityEngine.XR.MeshId::Equals(System.Object)
+// 0x00000062 System.Boolean UnityEngine.XR.MeshId::Equals(System.Object)
 extern void MeshId_Equals_m77D4535F7643D5C1FEA20600C92B73818DD8675E (void);
-// 0x0000005F System.Boolean UnityEngine.XR.MeshId::Equals(UnityEngine.XR.MeshId)
+// 0x00000063 System.Boolean UnityEngine.XR.MeshId::Equals(UnityEngine.XR.MeshId)
 extern void MeshId_Equals_m685A94F74A3A06E6E51C60F1D40386CAA8F01834 (void);
-// 0x00000060 System.Void UnityEngine.XR.MeshId::.cctor()
+// 0x00000064 System.Void UnityEngine.XR.MeshId::.cctor()
 extern void MeshId__cctor_m98D91783008597CCFFBC675648A50107318509D7 (void);
-// 0x00000061 System.Int32 UnityEngine.XR.HashCodeHelper::Combine(System.Int32,System.Int32)
+// 0x00000065 System.Int32 UnityEngine.XR.HashCodeHelper::Combine(System.Int32,System.Int32)
 extern void HashCodeHelper_Combine_m5F8B051AFC305B7FD377632031048F6549A1A543 (void);
-// 0x00000062 UnityEngine.XR.MeshId UnityEngine.XR.MeshGenerationResult::get_MeshId()
+// 0x00000066 UnityEngine.XR.MeshId UnityEngine.XR.MeshGenerationResult::get_MeshId()
 extern void MeshGenerationResult_get_MeshId_m55663E958B980188CFD406BB2469B24D8089BA9E (void);
-// 0x00000063 UnityEngine.Mesh UnityEngine.XR.MeshGenerationResult::get_Mesh()
+// 0x00000067 UnityEngine.Mesh UnityEngine.XR.MeshGenerationResult::get_Mesh()
 extern void MeshGenerationResult_get_Mesh_mDBEB5E83FC729856B17AF62B9438C9B9A79A0200 (void);
-// 0x00000064 UnityEngine.MeshCollider UnityEngine.XR.MeshGenerationResult::get_MeshCollider()
+// 0x00000068 UnityEngine.MeshCollider UnityEngine.XR.MeshGenerationResult::get_MeshCollider()
 extern void MeshGenerationResult_get_MeshCollider_m0285F3BFFFF0778DC8DDA97BFDAE30A19AEBF283 (void);
-// 0x00000065 UnityEngine.XR.MeshGenerationStatus UnityEngine.XR.MeshGenerationResult::get_Status()
+// 0x00000069 UnityEngine.XR.MeshGenerationStatus UnityEngine.XR.MeshGenerationResult::get_Status()
 extern void MeshGenerationResult_get_Status_m5AF51D2745EC947BB722550DC95665D430CDB178 (void);
-// 0x00000066 UnityEngine.XR.MeshVertexAttributes UnityEngine.XR.MeshGenerationResult::get_Attributes()
+// 0x0000006A UnityEngine.XR.MeshVertexAttributes UnityEngine.XR.MeshGenerationResult::get_Attributes()
 extern void MeshGenerationResult_get_Attributes_m24D66B0694F827D4DFFE210069EF0F5578F4845F (void);
-// 0x00000067 System.Boolean UnityEngine.XR.MeshGenerationResult::Equals(System.Object)
+// 0x0000006B System.Boolean UnityEngine.XR.MeshGenerationResult::Equals(System.Object)
 extern void MeshGenerationResult_Equals_m511B6FD46B1187D90919F4C0D2E853DE4A16BD44 (void);
-// 0x00000068 System.Boolean UnityEngine.XR.MeshGenerationResult::Equals(UnityEngine.XR.MeshGenerationResult)
+// 0x0000006C System.Boolean UnityEngine.XR.MeshGenerationResult::Equals(UnityEngine.XR.MeshGenerationResult)
 extern void MeshGenerationResult_Equals_mA9685353D67F169013BF8CC6B34EAFE69DB341B4 (void);
-// 0x00000069 System.Int32 UnityEngine.XR.MeshGenerationResult::GetHashCode()
+// 0x0000006D System.Int32 UnityEngine.XR.MeshGenerationResult::GetHashCode()
 extern void MeshGenerationResult_GetHashCode_m511BFBE4F21B162C59E462DF9DC9883A06CF9CC7 (void);
-// 0x0000006A System.Void UnityEngine.XR.XRMeshSubsystem::InvokeMeshReadyDelegate(UnityEngine.XR.MeshGenerationResult,System.Action`1<UnityEngine.XR.MeshGenerationResult>)
+// 0x0000006E System.Void UnityEngine.XR.XRMeshSubsystem::InvokeMeshReadyDelegate(UnityEngine.XR.MeshGenerationResult,System.Action`1<UnityEngine.XR.MeshGenerationResult>)
 extern void XRMeshSubsystem_InvokeMeshReadyDelegate_mDD6390D57F2CD0F7EBD64B628DB780D23424FD8F (void);
-// 0x0000006B System.Void UnityEngine.XR.XRMeshSubsystem::.ctor()
+// 0x0000006F System.Void UnityEngine.XR.XRMeshSubsystem::.ctor()
 extern void XRMeshSubsystem__ctor_mBA5B9B6A417BB2B477705E8BF6D1BFACF94AEF74 (void);
-// 0x0000006C System.Void UnityEngine.XR.XRMeshSubsystemDescriptor::.ctor()
+// 0x00000070 System.Void UnityEngine.XR.XRMeshSubsystemDescriptor::.ctor()
 extern void XRMeshSubsystemDescriptor__ctor_m52169EE2174077BA5575410A1031C23915BBA6D2 (void);
-static Il2CppMethodPointer s_methodPointers[108] = 
+// 0x00000071 System.Boolean UnityEngine.XR.Provider.XRStats::TryGetStat(UnityEngine.IntegratedSubsystem,System.String,System.Single&)
+extern void XRStats_TryGetStat_m39A5AA3E3029029F2E9FBBBDF14E4CC00F98ED8A (void);
+// 0x00000072 System.Boolean UnityEngine.XR.Provider.XRStats::TryGetStat_Internal(System.IntPtr,System.String,System.Single&)
+extern void XRStats_TryGetStat_Internal_mE76FD3630524CB2490C10C6E2A42225A07A09945 (void);
+static Il2CppMethodPointer s_methodPointers[114] = 
 {
 	EmbeddedAttribute__ctor_m4E9EEA70016F5DDF1137BD478DC0BB0D2A3EB1A0,
 	IsReadOnlyAttribute__ctor_m6627A1A5600798A4080F1046794105F485DEB04B,
@@ -302,6 +314,10 @@ static Il2CppMethodPointer s_methodPointers[108] =
 	InputDevices_TryGetFeatureValue_Quaternionf_m311EFFC92912AC9979DAAC31C642202D5E7E26EB,
 	InputDevices_IsDeviceValid_m1752F226E5552BE398A8EAD41A131E8A5D6F9E47,
 	XRDisplaySubsystem_InvokeDisplayFocusChanged_mF8F7E4D08B964907140FD3F8841F130159C7DBA7,
+	XRDisplaySubsystem_TryGetAppGPUTimeLastFrame_m6101C924131D97949D0BB807F0075C28464B6451,
+	XRDisplaySubsystem_TryGetCompositorGPUTimeLastFrame_m168019E7D1D33CFA7218F9BC79E3C5E1640CC41B,
+	XRDisplaySubsystem_TryGetDisplayRefreshRate_m83B7B48711B68E8D05F3B5D2F1EDE61154EAC7A3,
+	XRDisplaySubsystem_TryGetMotionToPhoton_m10E75B632588DB76D4C88E022CC2B5D678E1C9F5,
 	XRDisplaySubsystem__ctor_mCC516BAAAC7175CC9CEECA04E488F5D9BF0FB774,
 	XRDisplaySubsystemDescriptor__ctor_mB045E1EBFB4D2B7CBE05D85D5AC622F7A971E056,
 	XRInputSubsystem_TryRecenter_m40231564A0E1FB14CAC17F7A88B206FA2121EF5C,
@@ -331,6 +347,8 @@ static Il2CppMethodPointer s_methodPointers[108] =
 	XRMeshSubsystem_InvokeMeshReadyDelegate_mDD6390D57F2CD0F7EBD64B628DB780D23424FD8F,
 	XRMeshSubsystem__ctor_mBA5B9B6A417BB2B477705E8BF6D1BFACF94AEF74,
 	XRMeshSubsystemDescriptor__ctor_m52169EE2174077BA5575410A1031C23915BBA6D2,
+	XRStats_TryGetStat_m39A5AA3E3029029F2E9FBBBDF14E4CC00F98ED8A,
+	XRStats_TryGetStat_Internal_mE76FD3630524CB2490C10C6E2A42225A07A09945,
 };
 extern void XRNodeState_set_uniqueID_m09D6E80AD1B81D7485242CFA27A7173A6231CA87_AdjustorThunk (void);
 extern void XRNodeState_get_nodeType_m55136A0A46D3C38E1EF41A62F0FCC9FC03AAAE3E_AdjustorThunk (void);
@@ -450,129 +468,135 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[64] =
 	{ 0x06000041, Bone_Equals_m2FBDCFEA8B90663E546294EBEB4763538DEEA412_AdjustorThunk },
 	{ 0x06000042, Bone_Equals_m025222EEBF2374226C62C32E1A7ADE3538C13AFB_AdjustorThunk },
 	{ 0x06000043, Bone_GetHashCode_m0ED7925C274DE8439749951FBE4E4EC28A797BFB_AdjustorThunk },
-	{ 0x0600005C, MeshId_ToString_mA9CDBA01DD0C110252F6C4AA7437C507B2025705_AdjustorThunk },
-	{ 0x0600005D, MeshId_GetHashCode_mCD3E4355DB5EE90C389CE1D742E4CCA6471E2AA6_AdjustorThunk },
-	{ 0x0600005E, MeshId_Equals_m77D4535F7643D5C1FEA20600C92B73818DD8675E_AdjustorThunk },
-	{ 0x0600005F, MeshId_Equals_m685A94F74A3A06E6E51C60F1D40386CAA8F01834_AdjustorThunk },
-	{ 0x06000062, MeshGenerationResult_get_MeshId_m55663E958B980188CFD406BB2469B24D8089BA9E_AdjustorThunk },
-	{ 0x06000063, MeshGenerationResult_get_Mesh_mDBEB5E83FC729856B17AF62B9438C9B9A79A0200_AdjustorThunk },
-	{ 0x06000064, MeshGenerationResult_get_MeshCollider_m0285F3BFFFF0778DC8DDA97BFDAE30A19AEBF283_AdjustorThunk },
-	{ 0x06000065, MeshGenerationResult_get_Status_m5AF51D2745EC947BB722550DC95665D430CDB178_AdjustorThunk },
-	{ 0x06000066, MeshGenerationResult_get_Attributes_m24D66B0694F827D4DFFE210069EF0F5578F4845F_AdjustorThunk },
-	{ 0x06000067, MeshGenerationResult_Equals_m511B6FD46B1187D90919F4C0D2E853DE4A16BD44_AdjustorThunk },
-	{ 0x06000068, MeshGenerationResult_Equals_mA9685353D67F169013BF8CC6B34EAFE69DB341B4_AdjustorThunk },
-	{ 0x06000069, MeshGenerationResult_GetHashCode_m511BFBE4F21B162C59E462DF9DC9883A06CF9CC7_AdjustorThunk },
+	{ 0x06000060, MeshId_ToString_mA9CDBA01DD0C110252F6C4AA7437C507B2025705_AdjustorThunk },
+	{ 0x06000061, MeshId_GetHashCode_mCD3E4355DB5EE90C389CE1D742E4CCA6471E2AA6_AdjustorThunk },
+	{ 0x06000062, MeshId_Equals_m77D4535F7643D5C1FEA20600C92B73818DD8675E_AdjustorThunk },
+	{ 0x06000063, MeshId_Equals_m685A94F74A3A06E6E51C60F1D40386CAA8F01834_AdjustorThunk },
+	{ 0x06000066, MeshGenerationResult_get_MeshId_m55663E958B980188CFD406BB2469B24D8089BA9E_AdjustorThunk },
+	{ 0x06000067, MeshGenerationResult_get_Mesh_mDBEB5E83FC729856B17AF62B9438C9B9A79A0200_AdjustorThunk },
+	{ 0x06000068, MeshGenerationResult_get_MeshCollider_m0285F3BFFFF0778DC8DDA97BFDAE30A19AEBF283_AdjustorThunk },
+	{ 0x06000069, MeshGenerationResult_get_Status_m5AF51D2745EC947BB722550DC95665D430CDB178_AdjustorThunk },
+	{ 0x0600006A, MeshGenerationResult_get_Attributes_m24D66B0694F827D4DFFE210069EF0F5578F4845F_AdjustorThunk },
+	{ 0x0600006B, MeshGenerationResult_Equals_m511B6FD46B1187D90919F4C0D2E853DE4A16BD44_AdjustorThunk },
+	{ 0x0600006C, MeshGenerationResult_Equals_mA9685353D67F169013BF8CC6B34EAFE69DB341B4_AdjustorThunk },
+	{ 0x0600006D, MeshGenerationResult_GetHashCode_m511BFBE4F21B162C59E462DF9DC9883A06CF9CC7_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[108] = 
+static const int32_t s_InvokerIndices[114] = 
 {
-	2684,
-	2684,
-	3242,
-	4183,
-	4183,
-	4027,
-	4293,
-	2128,
-	2621,
-	2127,
-	2163,
-	1775,
-	1775,
-	665,
-	662,
-	2621,
-	2663,
-	2663,
-	2621,
-	2621,
-	2621,
-	1847,
-	1819,
-	2621,
-	2639,
-	2621,
-	1847,
-	1827,
-	2621,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	-1,
-	4293,
-	2128,
-	2622,
-	2663,
-	2663,
-	635,
-	1775,
-	897,
-	900,
-	901,
-	902,
-	899,
-	898,
-	-1,
-	1847,
-	1823,
-	2621,
-	2622,
-	2621,
-	1847,
-	1818,
-	2621,
-	2622,
-	2621,
-	1847,
-	1811,
-	2621,
-	2622,
-	2621,
-	1847,
-	1790,
-	2621,
-	3975,
-	3830,
-	3189,
-	3726,
-	3416,
-	3416,
-	3416,
-	3416,
-	3416,
-	3416,
-	4126,
-	2163,
-	2684,
-	2684,
-	2663,
-	1831,
-	2621,
-	2621,
-	2143,
-	2143,
-	4182,
-	4182,
-	2684,
-	2684,
-	2639,
-	2621,
-	1847,
+	2725,
+	2725,
+	3294,
+	4269,
+	4269,
+	4112,
+	4384,
+	2159,
+	2661,
+	2158,
+	2194,
+	1798,
+	1798,
+	667,
+	664,
+	2661,
+	2703,
+	2703,
+	2661,
+	2661,
+	2661,
+	1871,
 	1843,
-	4293,
-	3602,
-	2634,
-	2639,
-	2639,
-	2621,
-	2621,
+	2661,
+	2679,
+	2661,
+	1871,
+	1851,
+	2661,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	4384,
+	2159,
+	2662,
+	2703,
+	2703,
+	637,
+	1798,
+	904,
+	907,
+	908,
+	909,
+	906,
+	905,
+	-1,
+	1871,
 	1847,
+	2661,
+	2662,
+	2661,
+	1871,
 	1842,
-	2621,
-	1229,
-	2684,
-	2684,
+	2661,
+	2662,
+	2661,
+	1871,
+	1835,
+	2661,
+	2662,
+	2661,
+	1871,
+	1813,
+	2661,
+	4060,
+	3908,
+	3241,
+	3792,
+	3472,
+	3472,
+	3472,
+	3472,
+	3472,
+	3472,
+	4211,
+	2194,
+	1798,
+	1798,
+	1798,
+	1798,
+	2725,
+	2725,
+	2703,
+	1855,
+	2661,
+	2661,
+	2174,
+	2174,
+	4268,
+	4268,
+	2725,
+	2725,
+	2679,
+	2661,
+	1871,
+	1867,
+	4384,
+	3667,
+	2674,
+	2679,
+	2679,
+	2661,
+	2661,
+	1871,
+	1866,
+	2661,
+	1242,
+	2725,
+	2725,
+	3486,
+	3474,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
@@ -580,17 +604,17 @@ static const Il2CppTokenRangePair s_rgctxIndices[1] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[4] = 
 {
-	{ (Il2CppRGCTXDataType)3, 8470 },
-	{ (Il2CppRGCTXDataType)2, 2255 },
-	{ (Il2CppRGCTXDataType)3, 8468 },
-	{ (Il2CppRGCTXDataType)3, 8469 },
+	{ (Il2CppRGCTXDataType)3, 8525 },
+	{ (Il2CppRGCTXDataType)2, 2273 },
+	{ (Il2CppRGCTXDataType)3, 8523 },
+	{ (Il2CppRGCTXDataType)3, 8524 },
 };
 extern const CustomAttributesCacheGenerator g_UnityEngine_XRModule_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_XRModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_XRModule_CodeGenModule = 
 {
 	"UnityEngine.XRModule.dll",
-	108,
+	114,
 	s_methodPointers,
 	64,
 	s_adjustorThunks,

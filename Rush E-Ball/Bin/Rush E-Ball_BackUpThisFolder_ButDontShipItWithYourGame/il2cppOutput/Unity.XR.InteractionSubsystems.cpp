@@ -1186,6 +1186,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m2A10C8FDADDEA28
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// UnityEngine.XR.InteractionSubsystems.GestureId UnityEngine.XR.InteractionSubsystems.GestureId::get_invalidId()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GestureId_tF3EFA115E02FC8A313B1019689130A09419B1EC7  GestureId_get_invalidId_m6C555BA41070FF97334FC610C0BD226508823AB5 (const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GestureId_tF3EFA115E02FC8A313B1019689130A09419B1EC7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public static GestureId invalidId { get { return s_InvalidId; } }
+		IL2CPP_RUNTIME_CLASS_INIT(GestureId_tF3EFA115E02FC8A313B1019689130A09419B1EC7_il2cpp_TypeInfo_var);
+		GestureId_tF3EFA115E02FC8A313B1019689130A09419B1EC7  L_0 = ((GestureId_tF3EFA115E02FC8A313B1019689130A09419B1EC7_StaticFields*)il2cpp_codegen_static_fields_for(GestureId_tF3EFA115E02FC8A313B1019689130A09419B1EC7_il2cpp_TypeInfo_var))->get_s_InvalidId_0();
+		return L_0;
+	}
+}
 // System.UInt64 UnityEngine.XR.InteractionSubsystems.GestureId::get_subId1()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t GestureId_get_subId1_m547C714F376171ADAA9449F4E35F2E6161DB9364 (GestureId_tF3EFA115E02FC8A313B1019689130A09419B1EC7 * __this, const RuntimeMethod* method)
 {

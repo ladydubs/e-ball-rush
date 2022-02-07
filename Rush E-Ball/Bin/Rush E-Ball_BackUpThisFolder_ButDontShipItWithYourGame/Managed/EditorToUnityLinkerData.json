@@ -529,6 +529,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Unity.XR.Oculus.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.XR.Oculus.OculusSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature",
@@ -616,6 +623,13 @@
             "managedAssemblyName": "Unity.XR.OpenXR.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.OpenXR.OpenXRSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.WindowsMixedReality.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.WindowsMR.WindowsMRSettings",
             "moduleName": "",
             "usedInScenes": []
         },
