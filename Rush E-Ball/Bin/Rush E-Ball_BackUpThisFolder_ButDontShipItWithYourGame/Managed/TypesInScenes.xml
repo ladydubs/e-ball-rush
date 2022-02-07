@@ -60,9 +60,6 @@
 		<type fullname="UnityEngine.XR.Management.XRGeneralSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Management.XRManagerSettings" preserve="nothing"/>
 	</assembly>
-	<assembly fullname="Unity.XR.Oculus">
-		<type fullname="Unity.XR.Oculus.OculusSettings" preserve="nothing"/>
-	</assembly>
 	<assembly fullname="Unity.XR.OpenXR.Features.ConformanceAutomation">
 		<type fullname="UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature" preserve="nothing"/>
 	</assembly>
@@ -85,9 +82,6 @@
 		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.OpenXR.OpenXRLoader" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.OpenXR.OpenXRSettings" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="Unity.XR.WindowsMixedReality">
-		<type fullname="UnityEngine.XR.WindowsMR.WindowsMRSettings" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.SpatialTracking">
 		<type fullname="UnityEngine.SpatialTracking.TrackedPoseDriver" preserve="nothing"/>

@@ -541,15 +541,6 @@ struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
 {
 };
 
-// UnityEngine.XR.Provider.XRStats
-struct XRStats_t86A80A4C932ED7493826F8FE48E32A17ECA53470  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-
 // UnityEngine.XR.InputFeatureUsage`1<System.Boolean>
 struct InputFeatureUsage_1_t28793BE3C4ACB9F1B34C0C392EAAFB16A5FA8E40 
 {
@@ -4569,8 +4560,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRNodeState_TryGetRotation_m8BAEDDA0A240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Vector3_get_zero_m1A8F7993167785F750B6B01762D22C2597C84EF6 (const RuntimeMethod* method);
 // UnityEngine.Quaternion UnityEngine.Quaternion::get_identity()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  Quaternion_get_identity_mF2E565DBCE793A1AE6208056D42CA7C59D83A702 (const RuntimeMethod* method);
-// System.Boolean UnityEngine.XR.Provider.XRStats::TryGetStat_Internal(System.IntPtr,System.String,System.Single&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRStats_TryGetStat_Internal_mE76FD3630524CB2490C10C6E2A42225A07A09945 (intptr_t ___ptr0, String_t* ___tag1, float* ___value2, const RuntimeMethod* method);
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -8021,46 +8010,6 @@ IL_001b:
 		return;
 	}
 }
-// System.Boolean UnityEngine.XR.XRDisplaySubsystem::TryGetAppGPUTimeLastFrame(System.Single&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRDisplaySubsystem_TryGetAppGPUTimeLastFrame_m6101C924131D97949D0BB807F0075C28464B6451 (XRDisplaySubsystem_tF8B46605B6D1199C52306D4EC7D83CFA90564A93 * __this, float* ___gpuTimeLastFrame0, const RuntimeMethod* method)
-{
-	typedef bool (*XRDisplaySubsystem_TryGetAppGPUTimeLastFrame_m6101C924131D97949D0BB807F0075C28464B6451_ftn) (XRDisplaySubsystem_tF8B46605B6D1199C52306D4EC7D83CFA90564A93 *, float*);
-	static XRDisplaySubsystem_TryGetAppGPUTimeLastFrame_m6101C924131D97949D0BB807F0075C28464B6451_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (XRDisplaySubsystem_TryGetAppGPUTimeLastFrame_m6101C924131D97949D0BB807F0075C28464B6451_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRDisplaySubsystem::TryGetAppGPUTimeLastFrame(System.Single&)");
-	bool icallRetVal = _il2cpp_icall_func(__this, ___gpuTimeLastFrame0);
-	return icallRetVal;
-}
-// System.Boolean UnityEngine.XR.XRDisplaySubsystem::TryGetCompositorGPUTimeLastFrame(System.Single&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRDisplaySubsystem_TryGetCompositorGPUTimeLastFrame_m168019E7D1D33CFA7218F9BC79E3C5E1640CC41B (XRDisplaySubsystem_tF8B46605B6D1199C52306D4EC7D83CFA90564A93 * __this, float* ___gpuTimeLastFrameCompositor0, const RuntimeMethod* method)
-{
-	typedef bool (*XRDisplaySubsystem_TryGetCompositorGPUTimeLastFrame_m168019E7D1D33CFA7218F9BC79E3C5E1640CC41B_ftn) (XRDisplaySubsystem_tF8B46605B6D1199C52306D4EC7D83CFA90564A93 *, float*);
-	static XRDisplaySubsystem_TryGetCompositorGPUTimeLastFrame_m168019E7D1D33CFA7218F9BC79E3C5E1640CC41B_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (XRDisplaySubsystem_TryGetCompositorGPUTimeLastFrame_m168019E7D1D33CFA7218F9BC79E3C5E1640CC41B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRDisplaySubsystem::TryGetCompositorGPUTimeLastFrame(System.Single&)");
-	bool icallRetVal = _il2cpp_icall_func(__this, ___gpuTimeLastFrameCompositor0);
-	return icallRetVal;
-}
-// System.Boolean UnityEngine.XR.XRDisplaySubsystem::TryGetDisplayRefreshRate(System.Single&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRDisplaySubsystem_TryGetDisplayRefreshRate_m83B7B48711B68E8D05F3B5D2F1EDE61154EAC7A3 (XRDisplaySubsystem_tF8B46605B6D1199C52306D4EC7D83CFA90564A93 * __this, float* ___displayRefreshRate0, const RuntimeMethod* method)
-{
-	typedef bool (*XRDisplaySubsystem_TryGetDisplayRefreshRate_m83B7B48711B68E8D05F3B5D2F1EDE61154EAC7A3_ftn) (XRDisplaySubsystem_tF8B46605B6D1199C52306D4EC7D83CFA90564A93 *, float*);
-	static XRDisplaySubsystem_TryGetDisplayRefreshRate_m83B7B48711B68E8D05F3B5D2F1EDE61154EAC7A3_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (XRDisplaySubsystem_TryGetDisplayRefreshRate_m83B7B48711B68E8D05F3B5D2F1EDE61154EAC7A3_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRDisplaySubsystem::TryGetDisplayRefreshRate(System.Single&)");
-	bool icallRetVal = _il2cpp_icall_func(__this, ___displayRefreshRate0);
-	return icallRetVal;
-}
-// System.Boolean UnityEngine.XR.XRDisplaySubsystem::TryGetMotionToPhoton(System.Single&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRDisplaySubsystem_TryGetMotionToPhoton_m10E75B632588DB76D4C88E022CC2B5D678E1C9F5 (XRDisplaySubsystem_tF8B46605B6D1199C52306D4EC7D83CFA90564A93 * __this, float* ___motionToPhoton0, const RuntimeMethod* method)
-{
-	typedef bool (*XRDisplaySubsystem_TryGetMotionToPhoton_m10E75B632588DB76D4C88E022CC2B5D678E1C9F5_ftn) (XRDisplaySubsystem_tF8B46605B6D1199C52306D4EC7D83CFA90564A93 *, float*);
-	static XRDisplaySubsystem_TryGetMotionToPhoton_m10E75B632588DB76D4C88E022CC2B5D678E1C9F5_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (XRDisplaySubsystem_TryGetMotionToPhoton_m10E75B632588DB76D4C88E022CC2B5D678E1C9F5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRDisplaySubsystem::TryGetMotionToPhoton(System.Single&)");
-	bool icallRetVal = _il2cpp_icall_func(__this, ___motionToPhoton0);
-	return icallRetVal;
-}
 // System.Void UnityEngine.XR.XRDisplaySubsystem::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDisplaySubsystem__ctor_mCC516BAAAC7175CC9CEECA04E488F5D9BF0FB774 (XRDisplaySubsystem_tF8B46605B6D1199C52306D4EC7D83CFA90564A93 * __this, const RuntimeMethod* method)
 {
@@ -8729,46 +8678,6 @@ IL2CPP_EXTERN_C  bool XRNodeState_TryGet_mA9E1E814ADD386E55534FD5E97194A7FCF9AC7
 	bool _returnValue;
 	_returnValue = XRNodeState_TryGet_mA9E1E814ADD386E55534FD5E97194A7FCF9AC719(_thisAdjusted, ___inValue0, ___availabilityFlag1, ___outValue2, method);
 	return _returnValue;
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Boolean UnityEngine.XR.Provider.XRStats::TryGetStat(UnityEngine.IntegratedSubsystem,System.String,System.Single&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRStats_TryGetStat_m39A5AA3E3029029F2E9FBBBDF14E4CC00F98ED8A (IntegratedSubsystem_t8FB3A371F812CF9521903AC016C64E95C7412002 * ___xrSubsystem0, String_t* ___tag1, float* ___value2, const RuntimeMethod* method)
-{
-	bool V_0 = false;
-	{
-		IntegratedSubsystem_t8FB3A371F812CF9521903AC016C64E95C7412002 * L_0 = ___xrSubsystem0;
-		NullCheck(L_0);
-		intptr_t L_1 = L_0->get_m_Ptr_0();
-		String_t* L_2 = ___tag1;
-		float* L_3 = ___value2;
-		bool L_4;
-		L_4 = XRStats_TryGetStat_Internal_mE76FD3630524CB2490C10C6E2A42225A07A09945((intptr_t)L_1, L_2, (float*)L_3, /*hidden argument*/NULL);
-		V_0 = L_4;
-		goto IL_0011;
-	}
-
-IL_0011:
-	{
-		bool L_5 = V_0;
-		return L_5;
-	}
-}
-// System.Boolean UnityEngine.XR.Provider.XRStats::TryGetStat_Internal(System.IntPtr,System.String,System.Single&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRStats_TryGetStat_Internal_mE76FD3630524CB2490C10C6E2A42225A07A09945 (intptr_t ___ptr0, String_t* ___tag1, float* ___value2, const RuntimeMethod* method)
-{
-	typedef bool (*XRStats_TryGetStat_Internal_mE76FD3630524CB2490C10C6E2A42225A07A09945_ftn) (intptr_t, String_t*, float*);
-	static XRStats_TryGetStat_Internal_mE76FD3630524CB2490C10C6E2A42225A07A09945_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (XRStats_TryGetStat_Internal_mE76FD3630524CB2490C10C6E2A42225A07A09945_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.Provider.XRStats::TryGetStat_Internal(System.IntPtr,System.String,System.Single&)");
-	bool icallRetVal = _il2cpp_icall_func(___ptr0, ___tag1, ___value2);
-	return icallRetVal;
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
