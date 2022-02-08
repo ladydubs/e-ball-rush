@@ -36,7 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\HandPresence.cs" />
+     <Compile Include="Assets\Scripts\dosomething.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:\UNITY\2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
