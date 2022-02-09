@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 5642723858813529084, guid: f0d05cb4ccf6afe4e9d94a911a3539d4,
+  m_ModelPrefab: {fileID: -8679921383154817045, guid: 2d10b9b89f2474de9800b152c3d00004,
     type: 3}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
@@ -860,7 +860,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 5642723858813529084, guid: f0d05cb4ccf6afe4e9d94a911a3539d4,
+  m_ModelPrefab: {fileID: -8679921383154817045, guid: e48d18018a0ba46c283d9fd9c227e578,
     type: 3}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
